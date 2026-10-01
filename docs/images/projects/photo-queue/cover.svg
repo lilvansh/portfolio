@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+<defs>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" stroke="#232830" stroke-width="1"/>
+  </pattern>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b6dff" stop-opacity=".32"/><stop offset="1" stop-color="#ff6b2c" stop-opacity=".08"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1d2229"/><stop offset="1" stop-color="#13171c"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="42"/></filter>
+  <filter id="smallGlow"><feGaussianBlur stdDeviation="5"/></filter>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0 0L0 6L8 3Z" fill="#8b6dff"/></marker>
+</defs>
+<rect width="1200" height="900" rx="32" fill="#101318"/>
+<rect width="1200" height="900" rx="32" fill="url(#grid)" opacity=".72"/>
+<circle cx="216" cy="108" r="170" fill="#8b6dff" fill-opacity=".12" filter="url(#blur)"/>
+<circle cx="1056" cy="765" r="190" fill="#ff6b2c" fill-opacity=".10" filter="url(#blur)"/>
+<text x="64" y="74" fill="#8b6dff" font-family="IBM Plex Mono,monospace" font-size="15" font-weight="600" text-anchor="start" letter-spacing="2.4">SMART EVENT PHOTO QUEUE</text>
+<rect x="60" y="112" width="1080" height="708" rx="26" fill="url(#panel)" stroke="#343a43" stroke-width="1" opacity="1"/><rect x="110" y="190" width="275" height="86" rx="14" fill="#181d23" stroke="#3b434e" stroke-width="1" opacity="1"/><circle cx="145" cy="233" r="18" fill="#242a32" stroke="#8b6dff"/><text x="180" y="224" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0.8">GROUP 01</text>
+<text x="180" y="247" fill="#8d9199" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="500" text-anchor="start" letter-spacing="1.1">CHECKED IN</text>
+<rect x="110" y="315" width="275" height="86" rx="14" fill="#181d23" stroke="#3b434e" stroke-width="1" opacity="1"/><circle cx="145" cy="358" r="18" fill="#242a32" stroke="#8b6dff"/><text x="180" y="349" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0.8">GROUP 02</text>
+<text x="180" y="372" fill="#8d9199" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="500" text-anchor="start" letter-spacing="1.1">READY</text>
+<rect x="110" y="440" width="275" height="86" rx="14" fill="#181d23" stroke="#3b434e" stroke-width="1" opacity="1"/><circle cx="145" cy="483" r="18" fill="#242a32" stroke="#8b6dff"/><text x="180" y="474" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0.8">GROUP 03</text>
+<text x="180" y="497" fill="#8d9199" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="500" text-anchor="start" letter-spacing="1.1">CAPTURED</text>
+<rect x="110" y="565" width="275" height="86" rx="14" fill="#181d23" stroke="#3b434e" stroke-width="1" opacity="1"/><circle cx="145" cy="608" r="18" fill="#242a32" stroke="#8b6dff"/><text x="180" y="599" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0.8">GROUP 04</text>
+<text x="180" y="622" fill="#8d9199" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="500" text-anchor="start" letter-spacing="1.1">REVIEW</text>
+<rect x="520" y="220" width="145" height="115" rx="15" fill="#171c22" stroke="#8b6dff" stroke-width="2" opacity="1"/><circle cx="592" cy="267" r="28" fill="#0f1318" stroke="#8b6dff" stroke-width="2"/><circle cx="592" cy="267" r="8" fill="#8b6dff"/><text x="592" y="318" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="1">CAM 1</text>
+<rect x="710" y="220" width="145" height="115" rx="15" fill="#171c22" stroke="#8b6dff" stroke-width="2" opacity="1"/><circle cx="782" cy="267" r="28" fill="#0f1318" stroke="#8b6dff" stroke-width="2"/><circle cx="782" cy="267" r="8" fill="#8b6dff"/><text x="782" y="318" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="1">CAM 2</text>
+<rect x="520" y="435" width="335" height="170" rx="18" fill="#171c22" stroke="#3b434e" stroke-width="1" opacity="1"/><text x="548" y="478" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="13" font-weight="600" text-anchor="start" letter-spacing="1">MATCH + REVIEW</text>
+<rect x="548" y="510" width="70" height="60" rx="9" fill="#222933" stroke="#39424d" stroke-width="1" opacity="1"/><rect x="636" y="510" width="70" height="60" rx="9" fill="#222933" stroke="#39424d" stroke-width="1" opacity="1"/><rect x="724" y="510" width="70" height="60" rx="9" fill="#222933" stroke="#39424d" stroke-width="1" opacity="1"/><rect x="915" y="250" width="150" height="300" rx="18" fill="#171c22" stroke="#3b434e" stroke-width="1" opacity="1"/><text x="990" y="294" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="1">DELIVERY</text>
+<rect x="942" y="335" width="96" height="40" rx="20" fill="#202631" stroke="#3d4651" stroke-width="1" opacity="1"/><text x="990" y="360" fill="#8d9199" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="1">EMAIL</text>
+<rect x="942" y="399" width="96" height="40" rx="20" fill="#202631" stroke="#3d4651" stroke-width="1" opacity="1"/><text x="990" y="424" fill="#8d9199" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="1">TEXT</text>
+<rect x="942" y="463" width="96" height="40" rx="20" fill="#202631" stroke="#3d4651" stroke-width="1" opacity="1"/><text x="990" y="488" fill="#8d9199" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="1">QR</text>
+<path d="M385 380L495 380" stroke="#8b6dff" stroke-width="2" opacity="0.9" stroke-dasharray="7 8" marker-end="url(#arrow)"/><path d="M782 365L890 365" stroke="#ff6b2c" stroke-width="2" opacity="0.9" stroke-dasharray="7 8" marker-end="url(#arrow)"/></svg>

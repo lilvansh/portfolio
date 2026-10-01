@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+<defs>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" stroke="#232830" stroke-width="1"/>
+  </pattern>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7aa8c8" stop-opacity=".32"/><stop offset="1" stop-color="#ff6b2c" stop-opacity=".08"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1d2229"/><stop offset="1" stop-color="#13171c"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="42"/></filter>
+  <filter id="smallGlow"><feGaussianBlur stdDeviation="5"/></filter>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0 0L0 6L8 3Z" fill="#7aa8c8"/></marker>
+</defs>
+<rect width="1200" height="900" rx="32" fill="#101318"/>
+<rect width="1200" height="900" rx="32" fill="url(#grid)" opacity=".72"/>
+<circle cx="216" cy="108" r="170" fill="#7aa8c8" fill-opacity=".12" filter="url(#blur)"/>
+<circle cx="1056" cy="765" r="190" fill="#ff6b2c" fill-opacity=".10" filter="url(#blur)"/>
+<text x="64" y="74" fill="#7aa8c8" font-family="IBM Plex Mono,monospace" font-size="15" font-weight="600" text-anchor="start" letter-spacing="2.4">END-TO-END SIGNAL MODEL</text>
+<rect x="65" y="250" width="190" height="330" rx="18" fill="url(#panel)" stroke="#343a43" stroke-width="1" opacity="1"/><text x="89" y="294" fill="#7aa8c8" font-family="IBM Plex Mono,monospace" font-size="11" font-weight="600" text-anchor="start" letter-spacing="1.5">01</text>
+<text x="89" y="350" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="16" font-weight="600" text-anchor="start" letter-spacing="1.1">INPUT</text>
+<text x="89" y="410" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Mics</text>
+<text x="89" y="448" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Playback</text>
+<text x="89" y="486" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Cameras</text>
+<path d="M255 415L289 415" stroke="#7aa8c8" stroke-width="2" opacity="0.9" stroke-dasharray="5 6" marker-end="url(#arrow)"/><rect x="289" y="250" width="190" height="330" rx="18" fill="url(#panel)" stroke="#343a43" stroke-width="1" opacity="1"/><text x="313" y="294" fill="#7aa8c8" font-family="IBM Plex Mono,monospace" font-size="11" font-weight="600" text-anchor="start" letter-spacing="1.5">02</text>
+<text x="313" y="350" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="16" font-weight="600" text-anchor="start" letter-spacing="1.1">PROCESS</text>
+<text x="313" y="410" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Mix</text>
+<text x="313" y="448" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Route</text>
+<text x="313" y="486" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Switch</text>
+<path d="M479 415L513 415" stroke="#7aa8c8" stroke-width="2" opacity="0.9" stroke-dasharray="5 6" marker-end="url(#arrow)"/><rect x="513" y="250" width="190" height="330" rx="18" fill="url(#panel)" stroke="#343a43" stroke-width="1" opacity="1"/><text x="537" y="294" fill="#7aa8c8" font-family="IBM Plex Mono,monospace" font-size="11" font-weight="600" text-anchor="start" letter-spacing="1.5">03</text>
+<text x="537" y="350" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="16" font-weight="600" text-anchor="start" letter-spacing="1.1">CONTROL</text>
+<text x="537" y="410" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Network</text>
+<text x="537" y="448" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Automation</text>
+<text x="537" y="486" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Monitoring</text>
+<path d="M703 415L737 415" stroke="#ff6b2c" stroke-width="2" opacity="0.9" stroke-dasharray="5 6" marker-end="url(#arrow)"/><rect x="737" y="250" width="190" height="330" rx="18" fill="url(#panel)" stroke="#343a43" stroke-width="1" opacity="1"/><text x="761" y="294" fill="#ff6b2c" font-family="IBM Plex Mono,monospace" font-size="11" font-weight="600" text-anchor="start" letter-spacing="1.5">04</text>
+<text x="761" y="350" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="16" font-weight="600" text-anchor="start" letter-spacing="1.1">OUTPUT</text>
+<text x="761" y="410" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">PA</text>
+<text x="761" y="448" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Stream</text>
+<text x="761" y="486" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Record</text>
+<path d="M927 415L961 415" stroke="#ff6b2c" stroke-width="2" opacity="0.9" stroke-dasharray="5 6" marker-end="url(#arrow)"/><rect x="961" y="250" width="190" height="330" rx="18" fill="url(#panel)" stroke="#343a43" stroke-width="1" opacity="1"/><text x="985" y="294" fill="#ff6b2c" font-family="IBM Plex Mono,monospace" font-size="11" font-weight="600" text-anchor="start" letter-spacing="1.5">05</text>
+<text x="985" y="350" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="16" font-weight="600" text-anchor="start" letter-spacing="1.1">VERIFY</text>
+<text x="985" y="410" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Meters</text>
+<text x="985" y="448" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Listen</text>
+<text x="985" y="486" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start" letter-spacing="0">Isolate</text>
+<text x="600" y="690" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="500" text-anchor="middle" letter-spacing="0">A failure is easier to isolate when every handoff in the system is visible and verifiable.</text>
+</svg>

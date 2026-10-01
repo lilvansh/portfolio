@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+<defs>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" stroke="#232830" stroke-width="1"/>
+  </pattern>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7aa8c8" stop-opacity=".32"/><stop offset="1" stop-color="#ff6b2c" stop-opacity=".08"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1d2229"/><stop offset="1" stop-color="#13171c"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="42"/></filter>
+  <filter id="smallGlow"><feGaussianBlur stdDeviation="5"/></filter>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0 0L0 6L8 3Z" fill="#7aa8c8"/></marker>
+</defs>
+<rect width="1200" height="675" rx="32" fill="#101318"/>
+<rect width="1200" height="675" rx="32" fill="url(#grid)" opacity=".72"/>
+<circle cx="216" cy="81" r="170" fill="#7aa8c8" fill-opacity=".12" filter="url(#blur)"/>
+<circle cx="1056" cy="573" r="190" fill="#ff6b2c" fill-opacity=".10" filter="url(#blur)"/>
+<text x="64" y="74" fill="#7aa8c8" font-family="IBM Plex Mono,monospace" font-size="15" font-weight="600" text-anchor="start" letter-spacing="2.4">PRODUCTION SYSTEM READINESS</text>
+<rect x="60" y="112" width="1080" height="500" rx="24" fill="url(#panel)" stroke="#343a43" stroke-width="1" opacity="1"/><rect x="105" y="160" width="320" height="400" rx="18" fill="#101419" stroke="#46515e" stroke-width="2" opacity="1"/><rect x="130" y="185" width="270" height="52" rx="9" fill="#1b2027" stroke="#343d47" stroke-width="1" opacity="1"/><text x="150" y="216" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="600" text-anchor="start" letter-spacing="1">WIRELESS</text>
+<circle cx="370" cy="211" r="5" fill="#7aa8c8"/><rect x="130" y="254" width="270" height="52" rx="9" fill="#1b2027" stroke="#343d47" stroke-width="1" opacity="1"/><text x="150" y="285" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="600" text-anchor="start" letter-spacing="1">MIX CORE</text>
+<circle cx="370" cy="280" r="5" fill="#ff6b2c"/><rect x="130" y="323" width="270" height="52" rx="9" fill="#1b2027" stroke="#343d47" stroke-width="1" opacity="1"/><text x="150" y="354" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="600" text-anchor="start" letter-spacing="1">STAGE IO</text>
+<circle cx="370" cy="349" r="5" fill="#7aa8c8"/><rect x="130" y="392" width="270" height="52" rx="9" fill="#1b2027" stroke="#343d47" stroke-width="1" opacity="1"/><text x="150" y="423" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="600" text-anchor="start" letter-spacing="1">NETWORK</text>
+<circle cx="370" cy="418" r="5" fill="#ff6b2c"/><rect x="130" y="461" width="270" height="52" rx="9" fill="#1b2027" stroke="#343d47" stroke-width="1" opacity="1"/><text x="150" y="492" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="10" font-weight="600" text-anchor="start" letter-spacing="1">PATCH</text>
+<circle cx="370" cy="487" r="5" fill="#7aa8c8"/><rect x="500" y="160" width="580" height="400" rx="18" fill="#151a20" stroke="#39424c" stroke-width="1" opacity="1"/><text x="535" y="205" fill="#f4f1e9" font-family="IBM Plex Mono,monospace" font-size="12" font-weight="600" text-anchor="start" letter-spacing="1.3">DEPLOYMENT CHECKLIST</text>
+<circle cx="545" cy="250" r="9" fill="none" stroke="#7aa8c8" stroke-width="2"/><path d="M540 250L544 254L551 245" stroke="#7aa8c8" stroke-width="2" fill="none"/><text x="570" y="255" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="start" letter-spacing="0">Power + network verified</text>
+<circle cx="545" cy="306" r="9" fill="none" stroke="#7aa8c8" stroke-width="2"/><path d="M540 306L544 310L551 301" stroke="#7aa8c8" stroke-width="2" fill="none"/><text x="570" y="311" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="start" letter-spacing="0">Device communication confirmed</text>
+<circle cx="545" cy="362" r="9" fill="none" stroke="#7aa8c8" stroke-width="2"/><path d="M540 362L544 366L551 357" stroke="#7aa8c8" stroke-width="2" fill="none"/><text x="570" y="367" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="start" letter-spacing="0">Signal path tested end-to-end</text>
+<circle cx="545" cy="418" r="9" fill="none" stroke="#ff6b2c" stroke-width="2"/><path d="M540 418L544 422L551 413" stroke="#ff6b2c" stroke-width="2" fill="none"/><text x="570" y="423" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="start" letter-spacing="0">Cable routes labeled</text>
+<circle cx="545" cy="474" r="9" fill="none" stroke="#ff6b2c" stroke-width="2"/><path d="M540 474L544 478L551 469" stroke="#ff6b2c" stroke-width="2" fill="none"/><text x="570" y="479" fill="#8d9199" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="start" letter-spacing="0">Monitoring positions ready</text>
+</svg>
